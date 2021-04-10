@@ -1,0 +1,5 @@
+#! /usr/bin/env python3
+
+import easy_i3_neovim_nav
+
+easy_i3_neovim_nav.main()
