@@ -17,7 +17,7 @@ Here are the major advantages to the solutions listed above:
 
 # Installation
 
-    pip install easy-i3-vim-nav
+    pip install easy-i3-neovim-nav
 
 # Usage
 
@@ -44,10 +44,10 @@ Here's an example configuration for your i3 config. Adapt this to your preferred
     bindsym $mod+l exec --no-startup-id easy-i3-neovim-nav focus right
 
     # Resizing                                                               
-    bindsym $mod+Shift+Left  --no-startup-id exec easy-i3-neovim-nav resize shrink width  5 10 5
-    bindsym $mod+Shift+Down  --no-startup-id exec easy-i3-neovim-nav resize shrink height 5 10 5
-    bindsym $mod+Shift+Up    --no-startup-id exec easy-i3-neovim-nav resize grow   height 5 10 5
-    bindsym $mod+Shift+Right --no-startup-id exec easy-i3-neovim-nav resize grow   width  5 10 5
+    bindsym $mod+Shift+Left  exec --no-startup-id easy-i3-neovim-nav resize shrink width  5 10 5
+    bindsym $mod+Shift+Down  exec --no-startup-id easy-i3-neovim-nav resize shrink height 5 10 5
+    bindsym $mod+Shift+Up    exec --no-startup-id easy-i3-neovim-nav resize grow   height 5 10 5
+    bindsym $mod+Shift+Right exec --no-startup-id easy-i3-neovim-nav resize grow   width  5 10 5
 
 The last three arguments control the amount by which windows are resized:
 
