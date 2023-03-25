@@ -1,3 +1,5 @@
+# This project is not maintained anymore, please use the [Rust version](https://github.com/tom-anders/easy-i3-neovim-nav) instead!
+
 # easy-i3-neovim-nav
 
 Quickly navigate and resize i3wm windows and Neovim splits with the same keybindings
